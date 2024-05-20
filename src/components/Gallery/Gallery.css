@@ -1,0 +1,67 @@
+body{
+  background-color: #ffedf6;
+}
+
+.logo {
+  margin-top: 60px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: 'NPSfontBold';
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box; 
+  width: 100%;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  height: 370px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.card img {
+  width: 80%; 
+  height: 200px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.card h4 {
+  font-family: 'NPSfontBold';
+  padding: 0 15px;
+  text-align: center;
+}
+
+.card p {
+  font-family: 'SUITE-Regular';
+  color: #000; 
+  font-size: 14px; 
+  padding: 0 15px;
+  margin-bottom: 15px; 
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'NPSfontBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SUITE-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
